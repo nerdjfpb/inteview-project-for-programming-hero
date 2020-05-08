@@ -1,0 +1,16 @@
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-input {
+  width: 100%;
+  border-radius: 1.5rem;
+  border: 1px solid var(--color-dark-2);
+  font-size: 1.6rem;
+  padding: 3rem 2.5rem;
+  box-shadow: 0 0.3rem 1.5rem var(--color-dark-2);
+}
+
+.form-input:focus {
+  outline: none;
+}

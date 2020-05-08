@@ -1,0 +1,124 @@
+.hotel-details {
+  font-weight: 300;
+}
+
+.hotel-details__images {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hotel-details__parts {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.hotel-details .paragraphs {
+  color: var(--color-dark-3);
+  padding-bottom: 2rem;
+  border-bottom: 2px solid var(--color-dark-2);
+}
+
+.hotel-details .hotel-features {
+  border-bottom: 2px solid var(--color-dark-2);
+}
+
+.hotel-details__paragraph {
+  margin: 3rem 0;
+  font-size: 2.4rem;
+  color: var(--color-dark-4);
+}
+
+.hotel-details .details-link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 2.4rem;
+}
+
+.hotel-details .reviews {
+  margin-top: 4rem;
+}
+
+.hotel-details .review {
+  font-size: 2.4rem;
+  color: black;
+}
+
+.hotel-details .review__details {
+  font-size: 1.5rem;
+}
+
+.hotel-details .right-part {
+  padding: 15rem;
+}
+
+.hotel-details .price-card {
+  width: 55rem;
+  padding: 4rem;
+  box-shadow: 0 0.3rem 1.5rem var(--color-dark-2);
+}
+
+.hotel-details .price-card .heading {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.hotel-details .price-card .review__details {
+  margin-bottom: 2rem;
+}
+
+.hotel-details .price-card .review__details svg {
+  color: var(--color-primary);
+}
+
+.hotel-details .price-card .date {
+  font-size: 1.4rem;
+  color: var(--color-dark-3);
+}
+
+.hotel-details .price-card .dates {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid var(--color-dark-2);
+  border-radius: 0.6rem;
+  padding: 1rem;
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.hotel-details .price-card .guests {
+  font-size: 1.4rem;
+  color: var(--color-dark-3);
+}
+
+.hotel-details .price-card #guests__select {
+  width: 100%;
+  padding: 2rem;
+  border-radius: 0.6rem;
+  border: 1px solid var(--color-dark-2);
+  margin-top: 1rem;
+}
+
+.hotel-details .price-card .price-breakdown {
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+.hotel-details .price-card .price-breakdown .single-row {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.hotel-details .price-card .price-breakdown .single-row:not(:last-child) {
+  border-bottom: 1px solid var(--color-dark-3);
+}
+
+.disclaimer {
+  text-align: center;
+  font-size: 1.6rem;
+}

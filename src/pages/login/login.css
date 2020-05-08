@@ -1,0 +1,22 @@
+.login {
+  text-align: center;
+}
+
+.login-form {
+  width: 50rem;
+  margin: 0 auto;
+}
+
+.login-form .paragraph1 {
+  color: var(--color-dark-3);
+  text-align: left;
+}
+
+.login-form .center {
+  text-align: center;
+}
+
+.login-form .sign-up {
+  text-decoration: none;
+  color: #000;
+}

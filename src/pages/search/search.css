@@ -1,0 +1,83 @@
+.search-section {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-gap: 10rem;
+}
+
+.search-section .experience-section {
+  margin-bottom: 5rem;
+}
+
+.experience-section__header {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experience-section__header .headingBeforeCards {
+  font-size: 2.6rem;
+}
+
+.experience-section__header .see-all {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.search-section .experience-cards,
+.search-section .home-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+
+.search-section .dates {
+  display: flex;
+  justify-content: space-between;
+}
+
+.guest-card {
+  margin-bottom: 1rem;
+  width: 100%;
+  border-radius: 1.5rem;
+  border: 1px solid var(--color-dark-2);
+  box-shadow: 0 0.3rem 1.5rem var(--color-dark-2);
+  font-size: 1.8rem;
+}
+
+.guest-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 2.5rem;
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid var(--color-dark-2);
+}
+
+.guest-card__details {
+  padding: 3.5rem 2.5rem;
+}
+
+.guest-card-details__person {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.guest-card-details__person:not(:last-child) {
+  margin-bottom: 6rem;
+}
+
+.guest-card-details__person .number {
+  display: flex;
+}
+
+.guest-card-details__person .number .number-add,
+.guest-card-details__person .number .number-minus {
+  cursor: pointer;
+}
+
+.guest-card-details__person .number .number-add,
+.guest-card-details__person .number .exact-number {
+  margin-right: 2rem;
+}

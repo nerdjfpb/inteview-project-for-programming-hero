@@ -1,0 +1,44 @@
+.single-search {
+  display: flex;
+}
+
+.single-search .left-side {
+  margin-right: 2rem;
+}
+
+.single-search .right-side {
+  font-size: 1.6rem;
+  color: var(--color-grey-1);
+}
+
+.single-search__heading {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: black;
+}
+
+.single-search__extra-benifities {
+  margin-bottom: 1.5rem;
+}
+
+.single-search__wifi {
+  margin-bottom: 2rem;
+}
+
+.single-search__cancel {
+  margin-bottom: 2rem;
+}
+
+.single-search__footer {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+.single-search__footer svg {
+  color: var(--color-primary);
+}
+
+.single-search__price {
+  font-size: 1.8rem;
+}

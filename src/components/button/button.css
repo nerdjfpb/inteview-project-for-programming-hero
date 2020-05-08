@@ -1,0 +1,23 @@
+.btn {
+  margin-top: 2.5rem;
+  margin-bottom: 3.5rem;
+  width: 100%;
+  background-image: var(--primary-gradient);
+  padding: 2.5rem 0;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:focus,
+.btn:active {
+  outline: none;
+}
+
+.btn:hover {
+  background-image: var(--primary-gradient-reverse);
+  transform: translateY(-0.3rem);
+}

@@ -1,0 +1,10 @@
+.hotel-feature {
+  display: flex;
+  font-size: 2.4rem;
+  color: var(--color-dark-4);
+  margin: 2rem 0;
+}
+
+.hotel-feature .icon {
+  margin-right: 2rem;
+}

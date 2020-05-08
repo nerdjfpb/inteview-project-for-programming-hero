@@ -1,0 +1,17 @@
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-dateInput {
+  width: 90%;
+  margin-right: 1rem;
+  border-radius: 1.5rem;
+  border: 1px solid var(--color-dark-2);
+  font-size: 1.6rem;
+  padding: 3rem 2.5rem;
+  box-shadow: 0 0.3rem 1.5rem var(--color-dark-2);
+}
+
+.form-dateInput:focus {
+  outline: none;
+}

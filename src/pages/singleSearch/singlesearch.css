@@ -1,0 +1,31 @@
+.single-search-section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.single-search-section .sub-heading {
+  font-size: 1.6rem;
+}
+
+.heading-singleSearch {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.single-search-section .tags {
+  margin-bottom: 1.5rem;
+}
+
+.single-search-section__single-card {
+  padding: 3rem 0;
+  border-bottom: 1px solid var(--color-dark-2);
+}
+
+.map {
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
+.google-map-dummy {
+  height: 100%;
+}
